@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>picrel</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="quinthree.png" />
+</head>
+<body>
+  <div class="vertical-line leftedge"></div>
+  <div class="thick-line left"></div>
+  <div class="vertical-line left"></div>
+
+  <div class="exposure-scale">
+    <div class="ev-tick" data-label="+3"></div>
+    <div class="ev-tick half"></div>
+    <div class="ev-tick" data-label="+2"></div>
+    <div class="ev-tick half"></div>
+    <div class="ev-tick" data-label="+1"></div>
+    <div class="ev-tick half"></div>
+    <div class="ev-tick" data-label="0"></div>
+    <div class="ev-tick half"></div>
+    <div class="ev-tick" data-label="-1"></div>
+    <div class="ev-tick half"></div>
+    <div class="ev-tick" data-label="-2"></div>
+    <div class="ev-tick half"></div>
+    <div class="ev-tick" data-label="-3"></div>
+  </div>
+
+  <div class="thick-line right"></div>
+
+  <div class="tab-dial">
+    <div class="tab-item">
+      <button class="tab-button active" data-tab="home">home</button>
+      <span class="tab-date">2025 may</span>
+    </div>
+    <div class="tab-item">
+      <button class="tab-button" data-tab="may31">pics of words</button>
+      <span class="tab-date">2025 may</span>
+    </div>
+  </div>
+
+  <div class="vertical-line right"></div>
+
+  <div class="page-wrapper">
+    <main class="main-content">
+      <!-- Moved OUTSIDE the dynamic content area -->
+      <div id="tab-content-area">
+        <div class="cam-frame">
+          <div class="home-image-frame">
+            <div class="home-image">
+              <img src="whatup.jpg" alt="itsme" />
+            </div>
+          </div>
+          <div class="home-text">
+            <h2>like most of my good ideas,</h2>
+            <p>
+              this one came from my little brother (a prolific and talented ex-photographer), 
+              who said that photography was a soulless art, and gave me his camera. i have no idea what im doing, but 
+              taking pictures makes me think about stuff more closely. this is a repository for that.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
