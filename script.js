@@ -21,7 +21,8 @@ tabButtons.forEach(btn => {
             <h2>like most of my good ideas,</h2>
             <p>
               this one came from my little brother (a prolific and talented ex-photographer), 
-              who said that photography was a soulless art, and gave me his camera.
+              who said that photography was a soulless art, and gave me his camera. i have no idea what im doing, but 
+              taking pictures makes me think about stuff more closely. this is a repository for that.
             </p>
           </div>
         </div>
